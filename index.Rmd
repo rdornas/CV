@@ -48,7 +48,7 @@ data_completa <- sprintf("%s %s, %s", mes, hoje, ano)
 ## Disclaimer {#disclaimer}
 
 Last updated on `r data_completa`.<br>
-Updated CV at [rdornas.github.io/CV](https://rdornas.github.io/CV/)
+Updated CV at [rdornas.github.io/CV](https://rdornas.github.io/CV)
 
 # Main
 
