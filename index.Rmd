@@ -5,9 +5,9 @@ date: "`Sys.Date()`"
 output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: false
+    self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
-#knit: pagedown::chrome_print
+knit: pagedown::chrome_print
 ---
 ```{r include=FALSE}
 Sys.setlocale("LC_TIME", "C")
@@ -145,7 +145,7 @@ Belo Horizonte, Brazil
 
 ### The need to consider searcher efficiency and carcass persistence in railway wildlife fatality studies.
 
-Eur. J. Wildl. Res. 66:81. ![https://doi.org/10.1007/s10344-020-01417-7](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}
+Eur. J. Wildl. Res. 66:81. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://doi.org/10.1007/s10344-020-01417-7)
 
 N/A
 
@@ -155,7 +155,7 @@ Dasoler BT, Kindel A, Beduschi J, Biasotto LD, **Dornas RAP**, Gonçalves LO, Lo
 
 ### Strain by the train: Patterns of toad fatalities on a Brazilian Amazonian railroad.
 
-Sci. Total Environ., 660:493-500. ![http://dx.doi.org/10.1016/j.scitotenv.2018.12.371](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}
+Sci. Total Environ., 660:493-500. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](http://dx.doi.org/10.1016/j.scitotenv.2018.12.371)
 
 N/A
 
@@ -165,7 +165,7 @@ N/A
 
 ### On a collision course: the vulnerability of bats to roadkills in Brazil.
 
-Mastozool. Neotrop. 25(1):115-128. ![http://ref.scielo.org/555mqy](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}
+Mastozool. Neotrop. 25(1):115-128. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](http://ref.scielo.org/555mqy)
 
 N/A
 
@@ -175,7 +175,7 @@ Novaes RLM, Laurindo RS, **Dornas RAP**, Esbérard CAL & Bueno C.
 
 ### Record of the Giant Otter, _Pteronura brasiliensis_ (Zimmermann, 1780), (Carnivora: Mustelidae) in a fragmented landscape of Maranhão state, Brazil.
 
-Checklist 13(1):2041.![https://doi.org/10.15560/13.1.2041](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}
+Checklist 13(1):2041. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://doi.org/10.15560/13.1.2041)
 
 N/A
 
