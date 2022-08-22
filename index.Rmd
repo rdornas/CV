@@ -4,6 +4,9 @@ author: Rubem Dornas
 date: "`Sys.Date()`"
 output:
   pagedown::html_resume:
+    css: 
+      - override.css         # OVERIDE CERTAIN FUNCTIONS OF CSS
+      - resume               # DEFAULT FILE
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
@@ -132,7 +135,7 @@ Amplo Engenharia e Gestão de Projetos
 
 Belo Horizonte, Brazil
 
-2011 - 2017
+2017 - 2011
 
 ::: concise
 - Member of the technical and coordination teams concerning several environmental studies related to mining and transportation.
@@ -143,7 +146,7 @@ Belo Horizonte, Brazil
 
 ## Selected Publications {data-icon="file"}
 
-### The need to consider searcher efficiency and carcass persistence in railway wildlife fatality studies.
+### The need to consider searcher efficiency and carcass persistence in railway wildlife fatality studies
 
 Eur. J. Wildl. Res. 66:81. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://doi.org/10.1007/s10344-020-01417-7)
 
@@ -153,7 +156,7 @@ N/A
 
 Dasoler BT, Kindel A, Beduschi J, Biasotto LD, **Dornas RAP**, Gonçalves LO, Lombardi PM, Menger T, de Oliveira GS & Teixeira FZ.
 
-### Strain by the train: Patterns of toad fatalities on a Brazilian Amazonian railroad.
+### Strain by the train: Patterns of toad fatalities on a Brazilian Amazonian railroad
 
 Sci. Total Environ., 660:493-500. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](http://dx.doi.org/10.1016/j.scitotenv.2018.12.371)
 
@@ -163,7 +166,7 @@ N/A
 
 **Dornas RAP**, Teixeira FZ, Gonsioroski G & Nóbrega RAN.
 
-### On a collision course: the vulnerability of bats to roadkills in Brazil.
+### On a collision course: the vulnerability of bats to roadkills in Brazil
 
 Mastozool. Neotrop. 25(1):115-128. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](http://ref.scielo.org/555mqy)
 
@@ -173,7 +176,7 @@ N/A
 
 Novaes RLM, Laurindo RS, **Dornas RAP**, Esbérard CAL & Bueno C.
 
-### Record of the Giant Otter, _Pteronura brasiliensis_ (Zimmermann, 1780), (Carnivora: Mustelidae) in a fragmented landscape of Maranhão state, Brazil.
+### Record of the Giant Otter, _Pteronura brasiliensis_ (Zimmermann, 1780), (Carnivora: Mustelidae) in a fragmented landscape of Maranhão state, Brazil
 
 Checklist 13(1):2041. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://doi.org/10.15560/13.1.2041)
 
