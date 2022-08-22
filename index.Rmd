@@ -47,7 +47,8 @@ data_completa <- sprintf("%s %s, %s", mes, hoje, ano)
 
 ## Disclaimer {#disclaimer}
 
-Last updated on `r data_completa`.
+Last updated on `r data_completa`.<br>
+Updated CV at [rdornas.github.io/CV](https://rdornas.github.io/CV/)
 
 # Main
 
@@ -185,3 +186,15 @@ N/A
 2017
 
 Prist PR, **Dornas RAP**, Dos Santos RH, Torres LGC & Lima ELP.
+
+## Other relevant information {data-icon="lightbulb"}
+
+::: concise
+- Reviewer for several journals.
+- Various concluded works for environmental companies as a senior consultant.
+- Active member of NERF/UFRGS - Núcleo de Ecologia de Rodovias e Ferrovias.
+- French proficiency: Diplôme Approfondi de Langue Française / DALF (2003).
+:::
+
+
+
