@@ -1,0 +1,184 @@
+---
+title: "Rubem Dornas's resume"
+author: Rubem Dornas
+date: "`Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+# uncomment this line to produce HTML and PDF in RStudio:
+#knit: pagedown::chrome_print
+---
+```{r include=FALSE}
+Sys.setlocale("LC_TIME", "C")
+
+hoje_ordinal <- scales::ordinal(lubridate::day(Sys.Date()))
+
+hoje <- lubridate::day(Sys.Date())
+
+mes <- lubridate::month(Sys.Date(), label = TRUE, abbr = TRUE)
+
+ano <- lubridate::year(Sys.Date())
+
+data_completa <- sprintf("%s %s, %s", mes, hoje, ano)
+```
+
+# Aside
+
+![Rubem Dornas](https://avatars.githubusercontent.com/u/25906665?v=4){width="80%"}
+
+## Contact Info {#contact}
+
+- <i class="fa fa-envelope"></i> [rapdornas\@gmail.com](mailto:rapdornas@gmail.com){.email}
+- <i class="fa fa-github"></i> [github.com/rdornas](https://github.com/rdornas)
+- <i class="fa fa-phone"></i> +1 (352) 709-0128
+- For more information, please contact me via email.
+
+## Skills {#skills}
+
+- Experienced in field biology and ecology, specially concerning wildlife and road/railroad ecology.
+
+- Highly skilled in R (mainly `tidyverse`, RMarkdown and Shiny), and Ruby on Rails.
+
+- Experienced with geoprocessing (vector data), including programming geoprocessing in R with `sf` package.
+
+## Disclaimer {#disclaimer}
+
+Last updated on `r data_completa`.
+
+# Main
+
+## Rubem Dornas {#title}
+
+### Biologist with geoprocessing and programming background
+
+Lic. and BSc. Biologist graduated from Federal University of Minas Gerais (Brazil) with specialization in Geoprocessing from Pontifícia Universidade Católica de Minas Gerais (Brazil) and master's degree in Analysis and Modeling of Environmental Systems from UFMG. Author and reviewer of several technical and scientific publications on environmental issues. Skilled in data analysis, writing reports and project design. For more than ten years, I'm working in environmental consulting activities in renowned regional and worldwide companies.
+
+## Education {data-icon="graduation-cap" data-concise="true"}
+
+### Universidade Federal de Minas Gerais
+
+Lic. in Biological Sciences
+
+Belo Horizonte, Brazil
+
+2003 - 2007
+
+Thesis: Peculiarities, curiosities and myths of birds as a tool for basic teaching of Ornithology (in Portuguese)
+
+### Universidade Federal de Minas Gerais
+
+BSc. in Biological Sciences - Vertebrates' Zoology
+
+Belo Horizonte, Brazil
+
+2008 - 2010
+
+Thesis: Study of wild vertebrates road-kills on Serra do Rola-Moça State Park, Minas Gerais (in Portuguese)
+
+### Pontifícia Universidade Católica de Minas Gerais
+
+Specialization in Geoprocessing
+
+Belo Horizonte, Brazil
+
+2016 - 2018
+
+Thesis: Geoprocessing applied to the environment area: a case study based on quantitative methods of spatial analysis (in Portuguese)
+
+### Universidade Federal de Minas Gerais
+
+MSc. in Analysis and Modeling of Environmental Systems
+
+Belo Horizonte, Brazil
+
+2017 - 2019
+
+Thesis: Estimations and temporal and spatial patterns of fatalities Cane toads (_Rhinella_ gr. _marina_) on Brazilian Amazonian railroad (in Portuguese)
+
+## Professional Experience (last 3) {data-icon="suitcase"}
+
+### Biologist / Project Manager
+
+AECOM
+
+Belo Horizonte, Brazil
+
+Current - 2020
+
+::: concise
+-   Involved in auditing of minings tailings dams.
+-   Creation, development and maintenance of a new technological platform for controlling audits recommendations.
+-   Production of reports and presentations.
+:::
+
+### Data Scientist
+
+Amplo Engenharia e Gestão de Projetos
+
+Belo Horizonte, Brazil
+
+2020
+
+::: concise
+-   Planning and elaboration of digital forms for field data collection
+-   Planning and elaboration of computational scripts and packages in R for extracting and including information in relational databases
+-   Data analysis and report writing
+:::
+
+### Biologist
+
+Amplo Engenharia e Gestão de Projetos
+
+Belo Horizonte, Brazil
+
+2011 - 2017
+
+::: concise
+- Member of the technical and coordination teams concerning several environmental studies related to mining and transportation.
+- Responsible for the fauna studies needed to the expansion of Estrada de Ferro Carajás (EFC), under concession by Vale S.A.
+- Responsible for presentations on behalf of the company to different audiences
+:::
+
+
+## Selected Publications {data-icon="file"}
+
+### The need to consider searcher efficiency and carcass persistence in railway wildlife fatality studies.
+
+Eur. J. Wildl. Res. 66:81. ![https://doi.org/10.1007/s10344-020-01417-7](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}
+
+N/A
+
+2020
+
+Dasoler BT, Kindel A, Beduschi J, Biasotto LD, **Dornas RAP**, Gonçalves LO, Lombardi PM, Menger T, de Oliveira GS & Teixeira FZ.
+
+### Strain by the train: Patterns of toad fatalities on a Brazilian Amazonian railroad.
+
+Sci. Total Environ., 660:493-500. ![http://dx.doi.org/10.1016/j.scitotenv.2018.12.371](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}
+
+N/A
+
+2019
+
+**Dornas RAP**, Teixeira FZ, Gonsioroski G & Nóbrega RAN.
+
+### On a collision course: the vulnerability of bats to roadkills in Brazil.
+
+Mastozool. Neotrop. 25(1):115-128. ![http://ref.scielo.org/555mqy](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}
+
+N/A
+
+2018
+
+Novaes RLM, Laurindo RS, **Dornas RAP**, Esbérard CAL & Bueno C.
+
+### Record of the Giant Otter, _Pteronura brasiliensis_ (Zimmermann, 1780), (Carnivora: Mustelidae) in a fragmented landscape of Maranhão state, Brazil.
+
+Checklist 13(1):2041.![https://doi.org/10.15560/13.1.2041](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}
+
+N/A
+
+2017
+
+Prist PR, **Dornas RAP**, Dos Santos RH, Torres LGC & Lima ELP.
