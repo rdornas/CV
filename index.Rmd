@@ -56,7 +56,7 @@ Updated CV at [rdornas.github.io/CV](https://rdornas.github.io/CV)
 
 ### Biologist with geoprocessing and programming background
 
-Lic. and BSc. Biologist graduated from Federal University of Minas Gerais (Brazil) with specialization in Geoprocessing from Pontifícia Universidade Católica de Minas Gerais (Brazil) and master's degree in Analysis and Modeling of Environmental Systems from UFMG. Author and reviewer of several technical and scientific publications on environmental issues. Skilled in data analysis, writing reports and project coordination. For more than ten years, I'm working in environmental consulting activities in renowned regional and worldwide companies.
+Lic. and BSc. Biologist graduated from Universidade Federal de Minas Gerais (UFMG) (Brazil) with specialization in Geoprocessing from Pontifícia Universidade Católica de Minas Gerais (Brazil) and master's degree in Analysis and Modeling of Environmental Systems from UFMG. Author and reviewer of several technical and scientific publications on environmental issues. Skilled in data analysis, writing reports and project coordination. For more than ten years, I'm working in environmental consulting activities in renowned regional and worldwide companies.
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
 
@@ -113,7 +113,7 @@ Current - 2020
 ::: concise
 -   Involved in auditing of minings tailings dams.
 -   Creation, development and maintenance of a new technological platform for controlling audits recommendations.
--   Production of reports and presentations.
+-   Development of reports and presentations.
 :::
 
 ### Data Scientist
@@ -192,7 +192,7 @@ Prist PR, **Dornas RAP**, Dos Santos RH, Torres LGC & Lima ELP.
 ::: concise
 - Reviewer for several journals.
 - Various concluded works for environmental companies as a senior consultant.
-- Active member of NERF/UFRGS - Núcleo de Ecologia de Rodovias e Ferrovias.
+- Active member of NERF / UFRGS - Núcleo de Ecologia de Rodovias e Ferrovias / Universidade Federal do Rio Grande do Sul.
 - French proficiency: Diplôme Approfondi de Langue Française / DALF (2003).
 :::
 
