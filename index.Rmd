@@ -148,6 +148,16 @@ Belo Horizonte, Brazil
 
 ## Selected Publications {data-icon="file"}
 
+### Giant anteaters on the move: native habitat selection and behavioral responses to land use change
+
+Movement Ecology. 14:2 [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](dx.doi.org/10.1186/s40462-025-00616-8)
+
+N/A
+
+2026
+
+Meiga AYY, Desbiez ALJ, **Dornas RAP**, Attias N, Giroux A & Valle D.
+
 ### Camera trap surveys of Atlantic Forest mammals: A data set for analyses considering imperfect detection (2004-2020)
 
 Ecology. 105:e4298. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://dx.doi.org/10.1002/ecy.4298)
@@ -180,7 +190,7 @@ N/A
 
 ### On a collision course: the vulnerability of bats to roadkills in Brazil
 
-Mastozool. Neotrop. 25(1):115-128. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](http://ref.scielo.org/555mqy)
+Mastozool. Neotrop. 25(1):115-128. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://doi.org/10.31687/saremMN.18.25.1.0.11)
 
 N/A
 
