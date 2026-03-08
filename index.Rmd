@@ -150,7 +150,7 @@ Belo Horizonte, Brazil
 
 ### Giant anteaters on the move: native habitat selection and behavioral responses to land use change
 
-Movement Ecology. 14:2 [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](dx.doi.org/10.1186/s40462-025-00616-8)
+Movement Ecology. 14:2 [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://dx.doi.org/10.1186/s40462-025-00616-8)
 
 N/A
 
