@@ -152,7 +152,7 @@ Belo Horizonte, Brazil
 
 ### Camera trap surveys of Atlantic Forest mammals: A data set for analyses considering imperfect detection (2004-2020)
 
-Ecology. v. 105, p. e4298. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://dx.doi.org/10.1002/ecy.4298)
+Ecology. 105:e4298. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://dx.doi.org/10.1002/ecy.4298)
 
 N/A
 
