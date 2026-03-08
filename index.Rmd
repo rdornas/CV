@@ -39,11 +39,13 @@ data_completa <- sprintf("%s %s, %s", mes, hoje, ano)
 
 ## Skills {#skills}
 
-- Experienced in field biology and ecology, specially concerning wildlife and road/railroad ecology.
+• Experienced in field biology and ecology, specially concerning wildlife and road/railroad ecology.
 
-- Highly skilled in R (mainly `tidyverse`, RMarkdown and Shiny), and Ruby on Rails.
+• Highly skilled in R, develops web apps in Ruby on Rails.
 
-- Experienced with geoprocessing (vector data), including programming geoprocessing in R with `sf` package.
+• Experienced with geoprocessing programming in R.
+
+• Acting in IT projects since 2019.
 
 ## Disclaimer {#disclaimer}
 
@@ -54,9 +56,9 @@ Updated CV at [rdornas.github.io/CV](https://rdornas.github.io/CV)
 
 ## Rubem Dornas {#title}
 
-### Biologist with geoprocessing and programming background
+### Biologist turned IT professional
 
-Lic. and BSc. Biologist graduated from Universidade Federal de Minas Gerais (UFMG) (Brazil) with specialization in Geoprocessing from Pontifícia Universidade Católica de Minas Gerais (Brazil) and master's degree in Analysis and Modeling of Environmental Systems from UFMG. Author and reviewer of several technical and scientific publications on environmental issues. Skilled in data analysis, writing reports and project coordination. For more than ten years, I'm working in environmental consulting activities in renowned regional and worldwide companies.
+I hold a B.Sc. in Biological Sciences from Universidade Federal de Minas Gerais (UFMG), Brazil, along with a specialization in Geoprocessing from Pontifícia Universidade Católica de Minas Gerais (PUC-MG) and an M.Sc. in Analysis and Modeling of Environmental Systems from UFMG. With over ten years of experience in environmental consulting for leading regional and global firms, I developed strong skills in data analysis and technical writing. I have also authored and peer-reviewed scientific publications on environmental topics. More recently, I have transitioned into the IT domain, where I operate at the intersection of data, technology, and product development. I contribute to data analysis workflows, support development teams, and act as a Product Owner, bringing a versatile, cross-functional profile that bridges technical and business perspectives.
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
 
@@ -98,11 +100,11 @@ Belo Horizonte, Brazil
 
 2017 - 2019
 
-Thesis: Estimations and temporal and spatial patterns of fatalities Cane toads (_Rhinella_ gr. _marina_) on Brazilian Amazonian railroad (in Portuguese)
+Thesis: Estimations and temporal and spatial patterns of fatalities of cane toads (_Rhinella_ gr. _marina_) on Brazilian Amazonian railroad (in Portuguese)
 
 ## Professional Experience (last 3) {data-icon="suitcase"}
 
-### Biologist / Project Manager
+### Biologist / Project Coordinator
 
 AECOM
 
@@ -112,8 +114,9 @@ Current - 2020
 
 ::: concise
 -   Involved in auditing of minings tailings dams.
--   Creation, development and maintenance of a new technological platform for controlling audits recommendations.
 -   Development of reports and presentations.
+-   Creation, development (including code) and maintenance of a new technological platform for controlling audits recommendations.
+-   Product Owner (IT position) of a new digital tool for the company.
 :::
 
 ### Data Scientist
@@ -126,7 +129,7 @@ Belo Horizonte, Brazil
 
 ::: concise
 -   Planning and elaboration of digital forms for field data collection
--   Planning and elaboration of computational scripts and packages in R for extracting and including information in relational databases
+-   Planning and elaboration of computational scripts and packages in R programming for extracting and including information in relational databases
 -   Data analysis and report writing
 :::
 
@@ -146,6 +149,16 @@ Belo Horizonte, Brazil
 
 
 ## Selected Publications {data-icon="file"}
+
+### Camera trap surveys of Atlantic Forest mammals: A data set for analyses considering imperfect detection (2004-2020)
+
+Ecology. v. 105, p. e4298. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://dx.doi.org/10.1002/ecy.4298)
+
+N/A
+
+2024
+
+Franceschi IC, **Dornas RAP**, Lermen IS, et al.
 
 ### The need to consider searcher efficiency and carcass persistence in railway wildlife fatality studies
 
@@ -190,11 +203,32 @@ Prist PR, **Dornas RAP**, dos Santos RH, Torres LGC & Lima ELP.
 ## Other relevant information {data-icon="lightbulb"}
 
 ::: concise
-- Reviewer for several journals.
-- Various concluded works for environmental companies as a senior consultant.
+- Reviewer for several academic journals.
+- Multiple concluded works for environmental companies as a senior consultant.
 - Active member of NERF / UFRGS - Núcleo de Ecologia de Rodovias e Ferrovias / Universidade Federal do Rio Grande do Sul.
 - French proficiency: Diplôme Approfondi de Langue Française / DALF (2003).
 :::
 
+```{r include=FALSE}
+pdf_files <- list.files(
+  path = ".",
+  pattern = "\\.pdf$",
+  full.names = TRUE,
+  recursive = FALSE,
+  ignore.case = TRUE
+)
 
+if (length(pdf_files) > 0) {
+  file.remove(pdf_files)
+}
 
+today <- lubridate::today() |> stringr::str_remove_all("-")
+
+output_file <- glue::glue("cv_rdornas_{today}.pdf")
+
+pagedown::chrome_print(
+  "index.html",
+  output = output_file,
+  browser = "/Applications/Comet.app/Contents/MacOS/Comet"
+)
+```
