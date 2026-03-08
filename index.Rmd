@@ -39,13 +39,11 @@ data_completa <- sprintf("%s %s, %s", mes, hoje, ano)
 
 ## Skills {#skills}
 
-• Experienced in field biology and ecology, specially concerning wildlife and road/railroad ecology.
+• Experienced in field biology and ecology, with a focus on wildlife and road/railroad ecology
 
-• Highly skilled in R, develops web apps in Ruby on Rails.
+• Proficient in R for data analysis and geoprocessing; experienced in web application development with Ruby on Rails
 
-• Experienced with geoprocessing programming in R.
-
-• Acting in IT projects since 2019.
+• Active in IT projects since 2017
 
 ## Disclaimer {#disclaimer}
 
@@ -113,10 +111,10 @@ Belo Horizonte, Brazil
 Current - 2020
 
 ::: concise
--   Involved in auditing of minings tailings dams.
--   Development of reports and presentations.
--   Creation, development (including code) and maintenance of a new technological platform for controlling audits recommendations.
--   Product Owner (IT position) of a new digital tool for the company.
+- Involved in auditing of mining tailings dams
+- Preparation of technical reports and presentations
+- Creation, development and maintenance of a digital platform for audit recommendation tracking, including hands-on coding
+- Product Owner of an internal digital tool
 :::
 
 ### Data Scientist
