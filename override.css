@@ -1,11 +1,50 @@
-.pagedjs_page:not(:first-of-type) {
+/* Remove sidebar on subsequent pages (page 2+) */
+@page {
+  background: white;
+}
+
+@page:first {
+  background: linear-gradient(
+    to left,
+    var(--sidebar-background-color),
+    var(--sidebar-background-color) var(--sidebar-background-width),
+    white var(--sidebar-background-width)
+  );
+}
+
+.pagedjs_page:not(:first-of-type),
+.pagedjs_page:not(.pagedjs_first_page) {
   --sidebar-width: 0rem;
   --sidebar-background-color: #ffffff;
-  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --sidebar-background-width: 0rem;
+  --main-width: 100%;
   --decorator-horizontal-margin: 0.2in;
+  background: white !important;
+}
+
+.pagedjs_page:not(:first-of-type) [data-id="main"],
+.pagedjs_page:not(.pagedjs_first_page) [data-id="main"],
+.pagedjs_page:not(:first-of-type) #main,
+.pagedjs_page:not(.pagedjs_first_page) #main,
+[data-split-from="main"] {
+  width: 100% !important;
+  max-width: 100% !important;
+  float: none !important;
+}
+
+.pagedjs_page:not(:first-of-type) .aside,
+.pagedjs_page:not(.pagedjs_first_page) .aside {
+  display: none !important;
+}
+
+/* Ensure bullet lists inside experience blocks use single column */
+.details .concise ul {
+  columns: 1 !important;
+  -webkit-columns: 1 !important;
+  -moz-columns: 1 !important;
 }
 
 /* Define the font family here */
-body{
+body {
   font-family: "Source Sans Pro", sans-serif;
 }

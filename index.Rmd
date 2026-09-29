@@ -5,8 +5,8 @@ date: "`Sys.Date()`"
 output:
   pagedown::html_resume:
     css: 
-      - override.css         # OVERIDE CERTAIN FUNCTIONS OF CSS
       - resume               # DEFAULT FILE
+      - override.css         # OVERRIDE CERTAIN FUNCTIONS OF CSS
     # set it to true for a self-contained HTML page but it'll take longer to render
     self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
@@ -24,6 +24,15 @@ mes <- lubridate::month(Sys.Date(), label = TRUE, abbr = TRUE)
 ano <- lubridate::year(Sys.Date())
 
 data_completa <- sprintf("%s %s, %s", mes, hoje, ano)
+```
+
+```{css, echo=FALSE}
+.pagedjs_page:not(:first-of-type) {
+  --sidebar-width: 0rem;
+  --sidebar-background-color: #ffffff;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+}
 ```
 
 # Aside
@@ -56,7 +65,7 @@ Updated CV at [rdornas.github.io/CV](https://rdornas.github.io/CV)
 
 ### Biologist turned IT professional
 
-I hold a B.Sc. in Biological Sciences from Universidade Federal de Minas Gerais (UFMG), Brazil, along with a specialization in Geoprocessing from Pontifícia Universidade Católica de Minas Gerais (PUC-MG) and an M.Sc. in Analysis and Modeling of Environmental Systems from UFMG. With over ten years of experience in environmental consulting for leading regional and global firms, I developed strong skills in data analysis and technical writing. I have also authored and peer-reviewed scientific publications on environmental topics. More recently, I have transitioned into the IT domain, where I operate at the intersection of data, technology, and product development. I contribute to data analysis workflows, support development teams, and act as a Product Owner, bringing a versatile, cross-functional profile that bridges technical and business perspectives.
+I hold a BSc. in Biological Sciences from Universidade Federal de Minas Gerais (UFMG), Brazil, along with a specialization in Geoprocessing from Pontifícia Universidade Católica de Minas Gerais (PUC-MG) and an MSc. in Analysis and Modeling of Environmental Systems from UFMG. With over ten years of experience in environmental consulting for leading regional and global firms, I developed strong skills in data analysis and technical writing. I have also authored and peer-reviewed scientific publications on environmental topics. More recently, I have transitioned into the IT domain, where I operate at the intersection of data, technology, and product development. I contribute to data analysis workflows, support development teams, and act as a Product Owner, bringing a versatile, cross-functional profile that bridges technical and business' perspectives.
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
 
@@ -93,7 +102,7 @@ Thesis: Study of wild vertebrates road-kills on Serra do Rola-Moça State Park, 
 
 ### Universidade Federal de Minas Gerais
 
-Lic. in Biological Sciences
+BSc. (Teaching Licensure) in Biological Sciences 
 
 Belo Horizonte, Brazil
 
@@ -111,12 +120,10 @@ Belo Horizonte, Brazil
 
 Current - 2020
 
-::: concise
 - Involved in auditing of mining tailings dams
 - Preparation of technical reports and presentations
 - Creation, development and maintenance of a digital platform for audit recommendation tracking, including hands-on coding
 - Product Owner / Business Analyst of an internal digital tool related to responsible mining
-:::
 
 ### Data Scientist
 
@@ -126,11 +133,9 @@ Belo Horizonte, Brazil
 
 2020
 
-::: concise
 -   Planning and elaboration of digital forms for field data collection
 -   Planning and elaboration of computational scripts and packages in R programming for extracting and including information in relational databases
 -   Data analysis and report writing
-:::
 
 ### Biologist
 
@@ -140,18 +145,16 @@ Belo Horizonte, Brazil
 
 2017 - 2011
 
-::: concise
 - Member of the technical and coordination teams concerning several environmental studies related to mining and transportation.
 - Responsible for the fauna studies needed to the expansion of Estrada de Ferro Carajás (EFC), under concession by Vale S.A.
 - Responsible for presentations on behalf of the company to different audiences
-:::
 
 
 ## Selected Publications {data-icon="file"}
 
 ### Giant anteaters on the move: native habitat selection and behavioral responses to land use change
 
-Movement Ecology. 14:2 [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://dx.doi.org/10.1186/s40462-025-00616-8)
+Movement Ecology. 14:2 [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="2.1%"}](https://dx.doi.org/10.1186/s40462-025-00616-8)
 
 N/A
 
@@ -161,7 +164,7 @@ Meiga AYY, Desbiez ALJ, **Dornas RAP**, Attias N, Giroux A & Valle D.
 
 ### Camera trap surveys of Atlantic Forest mammals: A data set for analyses considering imperfect detection (2004-2020)
 
-Ecology. 105:e4298. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://dx.doi.org/10.1002/ecy.4298)
+Ecology. 105:e4298. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="2.1%"}](https://dx.doi.org/10.1002/ecy.4298)
 
 N/A
 
@@ -171,7 +174,7 @@ Franceschi IC, **Dornas RAP**, Lermen IS, et al.
 
 ### The need to consider searcher efficiency and carcass persistence in railway wildlife fatality studies
 
-Eur. J. Wildl. Res. 66:81. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://doi.org/10.1007/s10344-020-01417-7)
+European Journal of Wildlife Research. 66:81. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="2.1%"}](https://doi.org/10.1007/s10344-020-01417-7)
 
 N/A
 
@@ -181,7 +184,7 @@ Dasoler BT, Kindel A, Beduschi J, Biasotto LD, **Dornas RAP**, Gonçalves LO, Lo
 
 ### Strain by the train: Patterns of toad fatalities on a Brazilian Amazonian railroad
 
-Sci. Total Environ., 660:493-500. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](http://dx.doi.org/10.1016/j.scitotenv.2018.12.371)
+Science of the Total Environment. 660:493-500. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="2.1%"}](http://dx.doi.org/10.1016/j.scitotenv.2018.12.371)
 
 N/A
 
@@ -191,7 +194,7 @@ N/A
 
 ### On a collision course: the vulnerability of bats to roadkills in Brazil
 
-Mastozool. Neotrop. 25(1):115-128. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://doi.org/10.31687/saremMN.18.25.1.0.11)
+Mastozoologia Neotropical. 25(1):115-128. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="2.1%"}](https://doi.org/10.31687/saremMN.18.25.1.0.11)
 
 N/A
 
@@ -201,7 +204,7 @@ Novaes RLM, Laurindo RS, **Dornas RAP**, Esbérard CAL & Bueno C.
 
 ### Record of the Giant Otter, _Pteronura brasiliensis_ (Zimmermann, 1780), (Carnivora: Mustelidae) in a fragmented landscape of Maranhão state, Brazil
 
-Checklist 13(1):2041. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="3.5%"}](https://doi.org/10.15560/13.1.2041)
+Checklist. 13(1):2041. [![DOI](https://raw.githubusercontent.com/jpswalsh/academicons/master/svg/doi.svg){width="2.1%"}](https://doi.org/10.15560/13.1.2041)
 
 N/A
 
@@ -215,8 +218,10 @@ Prist PR, **Dornas RAP**, dos Santos RH, Torres LGC & Lima ELP.
 - Reviewer for several academic journals.
 - Multiple concluded works for environmental companies as a senior consultant.
 - Active member of NERF / UFRGS - Núcleo de Ecologia de Rodovias e Ferrovias / Universidade Federal do Rio Grande do Sul.
-- French: Diplôme Approfondi de Langue Française / DALF (2003). TEF Canada (2026) - CECR Level: Compréhension écrite C1 / Compréhension orale C2 / Expression écrite B2 / Expression orale C1  
-- English: IELTS (2026) - CEFR Level C1
+- French: 
+  - Diplôme Approfondi de Langue Française / DALF (2003). 
+  - TEF Canada (2026) - CECR Level: Compréhension écrite C1 / Compréhension orale C2 / Expression écrite B2 / Expression orale C1  
+- English: IELTS (2026) - CEFR Level: C1
 :::
 
 ```{r include=FALSE}
