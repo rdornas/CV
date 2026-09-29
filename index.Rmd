@@ -63,9 +63,9 @@ Updated CV at [rdornas.github.io/CV](https://rdornas.github.io/CV)
 
 ## Rubem Dornas {#title}
 
-### Biologist turned IT professional
+### Biologist and Digital Product Professional Bridging Science, Technology, and Business
 
-I hold a BSc. in Biological Sciences from Universidade Federal de Minas Gerais (UFMG), Brazil, along with a specialization in Geoprocessing from Pontifícia Universidade Católica de Minas Gerais (PUC-MG) and an MSc. in Analysis and Modeling of Environmental Systems from UFMG. With over ten years of experience in environmental consulting for leading regional and global firms, I developed strong skills in data analysis and technical writing. I have also authored and peer-reviewed scientific publications on environmental topics. More recently, I have transitioned into the IT domain, where I operate at the intersection of data, technology, and product development. I contribute to data analysis workflows, support development teams, and act as a Product Owner, bringing a versatile, cross-functional profile that bridges technical and business' perspectives.
+I hold a BSc. in Biological Sciences from Universidade Federal de Minas Gerais (UFMG), Brazil, along with a specialization in Geoprocessing from Pontifícia Universidade Católica de Minas Gerais (PUC-MG) and an MSc. in Analysis and Modeling of Environmental Systems from UFMG. With over fifteen years of experience in environmental consulting for leading regional and global firms, I developed strong skills in data analysis and technical writing. I have also authored and peer-reviewed scientific publications on environmental topics. More recently, I have transitioned into the IT domain, where I operate at the intersection of data, technology, and product development. I contribute to data analysis workflows, support development teams, and act as a Product Owner/Business Analyst.
 
 ## Education {data-icon="graduation-cap" data-concise="true"}
 
