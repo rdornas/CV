@@ -62,23 +62,14 @@ I hold a B.Sc. in Biological Sciences from Universidade Federal de Minas Gerais 
 
 ### Universidade Federal de Minas Gerais
 
-Lic. in Biological Sciences
+MSc. in Analysis and Modeling of Environmental Systems
 
 Belo Horizonte, Brazil
 
-2003 - 2007
+2017 - 2019
 
-Thesis: Peculiarities, curiosities and myths of birds as a tool for basic teaching of Ornithology (in Portuguese)
+Thesis: Estimations and temporal and spatial patterns of fatalities of cane toads (_Rhinella_ gr. _marina_) on Brazilian Amazonian railroad (in Portuguese)
 
-### Universidade Federal de Minas Gerais
-
-BSc. in Biological Sciences - Vertebrates' Zoology
-
-Belo Horizonte, Brazil
-
-2008 - 2010
-
-Thesis: Study of wild vertebrates road-kills on Serra do Rola-Moça State Park, Minas Gerais (in Portuguese)
 
 ### Pontifícia Universidade Católica de Minas Gerais
 
@@ -92,17 +83,27 @@ Thesis: Geoprocessing applied to the environment area: a case study based on qua
 
 ### Universidade Federal de Minas Gerais
 
-MSc. in Analysis and Modeling of Environmental Systems
+BSc. in Biological Sciences - Vertebrates' Zoology
 
 Belo Horizonte, Brazil
 
-2017 - 2019
+2008 - 2010
 
-Thesis: Estimations and temporal and spatial patterns of fatalities of cane toads (_Rhinella_ gr. _marina_) on Brazilian Amazonian railroad (in Portuguese)
+Thesis: Study of wild vertebrates road-kills on Serra do Rola-Moça State Park, Minas Gerais (in Portuguese)
+
+### Universidade Federal de Minas Gerais
+
+Lic. in Biological Sciences
+
+Belo Horizonte, Brazil
+
+2003 - 2007
+
+Thesis: Peculiarities, curiosities and myths of birds as a tool for basic teaching of Ornithology (in Portuguese)
 
 ## Professional Experience (last 3) {data-icon="suitcase"}
 
-### Biologist / Project Coordinator
+### Biologist / Digital Project Coordinator
 
 AECOM
 
@@ -114,7 +115,7 @@ Current - 2020
 - Involved in auditing of mining tailings dams
 - Preparation of technical reports and presentations
 - Creation, development and maintenance of a digital platform for audit recommendation tracking, including hands-on coding
-- Product Owner of an internal digital tool
+- Product Owner / Business Analyst of an internal digital tool related to responsible mining
 :::
 
 ### Data Scientist
@@ -214,7 +215,8 @@ Prist PR, **Dornas RAP**, dos Santos RH, Torres LGC & Lima ELP.
 - Reviewer for several academic journals.
 - Multiple concluded works for environmental companies as a senior consultant.
 - Active member of NERF / UFRGS - Núcleo de Ecologia de Rodovias e Ferrovias / Universidade Federal do Rio Grande do Sul.
-- French proficiency: Diplôme Approfondi de Langue Française / DALF (2003).
+- French: Diplôme Approfondi de Langue Française / DALF (2003). TEF Canada (2026) - CECR Level: Compréhension écrite C1 / Compréhension orale C2 / Expression écrite B2 / Expression orale C1  
+- English: IELTS (2026) - CEFR Level C1
 :::
 
 ```{r include=FALSE}
